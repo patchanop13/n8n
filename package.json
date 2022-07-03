@@ -18,7 +18,8 @@
     "test": "lerna run test",
     "watch": "lerna run --parallel watch",
     "webhook": "./packages/cli/bin/n8n webhook",
-    "worker": "./packages/cli/bin/n8n worker"
+    "worker": "./packages/cli/bin/n8n worker",
+    "tsc": "./node_modules/typescript/bin/tsc",
   },
   "devDependencies": {
     "@types/bson": "^4.2.0",
