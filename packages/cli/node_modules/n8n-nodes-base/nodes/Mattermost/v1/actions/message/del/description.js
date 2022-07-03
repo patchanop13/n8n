@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.messageDeleteDescription = void 0;
+exports.messageDeleteDescription = [
+    {
+        displayName: 'Post ID',
+        name: 'postId',
+        type: 'string',
+        required: true,
+        displayOptions: {
+            show: {
+                resource: [
+                    'message',
+                ],
+                operation: [
+                    'delete',
+                ],
+            },
+        },
+        default: '',
+        description: 'ID of the post to delete',
+    },
+];
