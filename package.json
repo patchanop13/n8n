@@ -41,10 +41,12 @@
   },
   "postcss": {},
   "dependencies": {
+    "@types/lodash.merge": "^4.6.7",
     "gulp-cli": "^2.3.0",
     "jest": "^28.1.2",
     "jmespath": "^0.16.0",
     "lodash": "^4.17.21",
+    "lodash.merge": "^4.6.2",
     "typescript": "^4.7.4",
     "uuid": "^8.3.2"
   },
